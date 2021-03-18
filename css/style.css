@@ -1,0 +1,24 @@
+
+/* GENERAL */
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #a0c7a0cf;
+    color: rgb(244, 247, 243);
+    font-size: 2rem;
+}
+
+
+/* PSW-GENERATOR */
+
+.psw-generator{
+  text-align: center;
+  padding: 100px;  
+}
+
