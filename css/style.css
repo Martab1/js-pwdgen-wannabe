@@ -10,15 +10,42 @@
 
 body{
     background-color: #a0c7a0cf;
-    color: rgb(244, 247, 243);
-    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    
 }
+
 
 
 /* PSW-GENERATOR */
 
+
+
 .psw-generator{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
-  padding: 100px;  
+  padding-top: 300px;
 }
 
+h1{
+  font-size: 3rem ;
+  padding-bottom: 20px;
+}
+
+.fa-arrow-down{
+  padding-top:20px;
+}
+
+
+.box{
+  margin-top: 40px;
+  line-height: 67px;
+  width: 400px;
+  height: 70px;
+  background:rgb(211, 230, 186);
+  border: 3px solid rgba(203, 226, 190, 0.945);
+  border-radius: 40px;
+}
